@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Strona</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #7c7c7c;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            margin: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            background-color: #7c7c7c;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            width: 60%;
+            background-color: rgb(104, 104, 104);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgb(255, 255, 255);
+        }
+
+        .menu button {
+            padding: 20px;
+            border: 2px solid #ffffff;
+            border-radius: 10px;
+            transition: background-color 0.3s, font-size 0.3s;
+            font-size: 20px;
+        }
+
+        .menu button:hover {
+            background-color: #ffffff;
+            font-size: 22px;
+        }
+
+        .menu button#start {
+            font-family: 'Arial', sans-serif;
+        }   
+    </style>
+</head>
+<body>
+    <br>
+</header>
+    <div class="menu">
+        <button id="start">Start</button>
+        <button id="projekty">Projekty</button>
+        <button id="kontakt">Kontakt</button>
+    </div>
+</body>
+</html>
